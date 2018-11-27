@@ -1,7 +1,0 @@
-NET "MemRead"                    LOC = "D17";   ## 2   on DS3 LED
-NET "MemWrite"                    LOC = "AB4";   ## 2   on DS4 LED
-NET "ALUSrc"                    LOC = "D21";   ## 2   on DS5 LED
-NET "RegDst"                    LOC = "W15";   ## 2   on DS6 LED
-NET "clk"              LOC = "N19";   ## 93 on U17
-#PIN "sc/CtrlU/temp<2>_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
-#PIN "clk_buffer/clkout2_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
